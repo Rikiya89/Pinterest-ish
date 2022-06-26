@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like a pinterest by Masonry</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="tittle">Pinterest-ish</h1>
+    </header>
+
+    <article class="grid">
+        <figure class="grid-item">
+            <img src="images/item-a.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-b.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-c.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-d.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-e.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-f.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-g.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-h.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-a.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-b.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-c.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-d.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-e.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-f.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-g.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+        <figure class="grid-item">
+            <img src="images/item-h.jpg" />
+            <figcaption class="caption">ピンタレスト風　メイソンリーレイアウト</figcaption>
+        </figure>
+    </article>
+
+    <footer>
+        <small>&copy; 2022 likeApin.com</small>
+    </footer>
+
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script>
+        $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            horizontalOrder: true
+        });
+    </script>
+
+</body>
+
+</html>

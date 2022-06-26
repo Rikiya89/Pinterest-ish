@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(223, 1, 1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    margin: 20px;
+}
+
+.grid-item img {
+    display: block;
+    width: 100%;
+    border-radius: 6%;
+}
+
+.caption{
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 560px) {
+    .grid-item{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-item{
+        width: 20%;
+    }
+}
